@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: monospace;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    background-color: cornflowerblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4.5rem;
+}
+
+header h1 {
+    font-size: 6rem;
+}
+
+section {
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 25px;
+    border: 1px solid black;
+    gap: 5rem;
+    width: 60rem;
+}
+
+.d_inputnumber p{
+    font-size: 2.5rem;
+}
+.d_select{
+    display: flex;
+    align-items: flex-start;
+    width: 25rem;
+    gap: 2rem;
+}
+#finalizar{
+    width: 10rem;
+}
+
+#finalizar,
+#add {
+    margin-left: 1.5rem;
+    transition: transform 2s;
+}
+
+#finalizar:active,
+#add:active {
+    transform: scale(0.95);
+    background-color: rgb(201, 192, 192);
+
+}
+
+input {
+    border-radius: 7px;
+    padding: 1%;
+}
+
+footer p {
+    font-size: 3rem;
+}
+
+.content p {
+    font-size: 3rem;
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+select { 
+    width: 200px;
+    display: inline-block;
+}
+
+#resultados p {
+    font-size: 20px;
+    padding: 5px;
+}
